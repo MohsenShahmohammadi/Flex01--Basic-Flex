@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: #c1c1c1;  
+}

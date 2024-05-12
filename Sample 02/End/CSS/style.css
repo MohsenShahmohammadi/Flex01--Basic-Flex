@@ -1,0 +1,51 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #c9c9c9;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 60px);
+    background-color: purple;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.titleCode{
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.textCode{
+    color: lightgray;
+    font-weight: bolder;
+    padding-left: 0.35rem;
+}
+.flex-Container{
+margin-top: 1.5rem;
+background-color: lightslategray;
+}
+.box{
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
